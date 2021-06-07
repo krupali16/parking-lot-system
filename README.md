@@ -1,24 +1,28 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+brew install ruby
 
-Things you may want to cover:
+brew install node
 
-* Ruby version
+brew install yarn
 
-* System dependencies
+gem install rails
 
-* Configuration
+* Clone the parking_lot_system directory and run below command in the terminal to check if the server is running
 
-* Database creation
+rails server
 
-* Database initialization
+* Store the input file in public/ directory with file name input.txt which will include all the input commands
 
-* How to run the test suite
+* If the rails server is running, then run below command to run the parking lot script. It will give the output.
 
-* Services (job queues, cache servers, search engines, etc.)
+rake create_parking_lot:run
 
-* Deployment instructions
 
-* ...
+
+* ASSUMPTIONS
+
+1. There will be only one Create_parking_lot in the input file and it will be at the beginning of the file.
+2. Commands will be always in right format in the input file.
+
+
