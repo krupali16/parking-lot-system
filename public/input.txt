@@ -1,0 +1,8 @@
+Create_parking_lot 6
+Park KA-01-HH-123 driver_age 21
+Park KA-01-HH-1235 driver_age 25
+Slot_numbers_for_driver_of_age 25
+Slot_number_for_car_with_number KA-01-HH-1239
+Vehicle_registration_number_for_driver_of_age 25
+Leave 1
+Leave 3
