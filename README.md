@@ -8,7 +8,7 @@ brew install yarn
 
 gem install rails
 
-* Clone the parking_lot_system directory and run below command in the terminal to check if the server is running
+* Clone the parking_lot_system directory and run below command in the terminal to check if the server is running (git branch is master)
 
 rails server
 
